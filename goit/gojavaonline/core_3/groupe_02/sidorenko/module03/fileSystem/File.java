@@ -6,12 +6,6 @@ import java.util.List;
     private String name;
     private int size;
 
-    public void save(){
-
-    }
-    public void copy(){
-    }
-
 
     public String getName() {
         return name;
