@@ -5,6 +5,13 @@ import java.util.List;
 public class Directory extends File {
     private List<File> files;
     private String name;
+    
+    public void save(){
+    }
+    
+    public void copy(){
+    }
+
 
     public boolean addFile(File file){
         return files.add(file);
