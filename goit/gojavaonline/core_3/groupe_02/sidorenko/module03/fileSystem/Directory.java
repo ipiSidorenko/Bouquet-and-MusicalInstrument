@@ -4,15 +4,10 @@ import java.util.List;
 
 public class Directory extends File {
     private List<File> files;
-    private List<Directory> directories;
     private String name;
 
     public boolean addFile(File file){
         return files.add(file);
-    }
-
-    public void addDirectory(Directory directory){
-         this.directories.add(directory);
     }
 
     public List<File> getFiles() {
@@ -21,14 +16,6 @@ public class Directory extends File {
 
     public void setFiles(List<File> files) {
         this.files = files;
-    }
-
-    public List<Directory> getDirectories() {
-        return directories;
-    }
-
-    public void setDirectories(List<Directory> directories) {
-        this.directories = directories;
     }
 
     public String getName() {
